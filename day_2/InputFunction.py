@@ -1,0 +1,10 @@
+first_name = input('What is your first name?')
+last_name = input('What is your last name?')
+country = input('What country are you from?')
+age = input('What is your age?')
+
+print('Here is what you entered!')
+print(first_name)
+print(last_name)
+print(country)
+print(age)

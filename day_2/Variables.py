@@ -43,5 +43,35 @@ print(type(mult_variable_list))
 
 print('The length of my first name is: ', len(first_name))
 
+if len(first_name) == len(last_name):
+    print('The length of my first name is the same length of my last name.')
+elif len(first_name) < len(last_name):
+    print('Your last name is longer than your first name!')
+elif len(first_name) > len(last_name):
+    print('Your first name is longer than your last name!')
+
+
+num_one = 5
+num_two = 4
+total = num_one + num_two
+print(total)
+
+diff = num_two - num_one
+print(diff)
+
+product = num_two * num_one
+print(product)
+
+division = num_one / num_two
+print(division)
+
+remainder = num_two % num_one
+print(remainder)
+
+exp = num_one ** num_two
+print(exp)
+
+floor_division = num_one // num_two
+print(floor_division)
 
 
